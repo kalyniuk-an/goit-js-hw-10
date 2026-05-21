@@ -54,7 +54,7 @@ input[type='radio']{
   cursor: pointer;
 }
 
-button{
+button[type='submit']{
   border-radius: 8px;
   border: none;
   padding: 8px 16px;
@@ -72,6 +72,6 @@ button{
   transition: background 250ms ease-in-out;
 }
 
-button:hover{
+button[type='submit']:hover{
   background: #6c8cff;
 }
