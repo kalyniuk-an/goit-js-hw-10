@@ -22,7 +22,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     const currentDate = new Date();
-    if (selectedDates[0] < currentDate) {
+    if (selectedDates[0] <= currentDate) {
       startBtn.disabled = true;
 
       iziToast.error({
