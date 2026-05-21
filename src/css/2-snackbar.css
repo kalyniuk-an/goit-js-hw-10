@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.form > label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 360px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  width: 360px;
+  margin: 24px auto 30px auto;
+  padding: 24px 0 8px 0;
+  border-radius: 4px;
+}
+
+input{
+  width: 344px;
+  height: 40px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+input[type='radio']{
+  width: 20px;
+  height: 20px;
+  accent-color: #4e75ff;
+  cursor: pointer;
+}
+
+button{
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+    
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: background 250ms ease-in-out;
+}
+
+button:hover{
+  background: #6c8cff;
+}
